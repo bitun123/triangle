@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #7c7c7c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 20%;
+  height: 25%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #f00808;
+  margin-left: -10px;
+  transition: all 0.5s;
+}
+.triangle:hover {
+  cursor: pointer;
+  transform: translate(0px, 80px) rotate(180deg);
+}
+/* body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+}
+.main-div {
+  width: 200px;
+  height: 200px;
+  background-color: #f80c0c;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-div:hover .triangle {
+  transform: translate(-50%, -50%) rotate(0deg);
+} */
